@@ -53,7 +53,7 @@ const Products = () => {
             key={blog.id}
             className="w-full max-w-md bg-white shadow-md rounded-lg p-4 border border-gray-300 "
           >
-            <div className="flex items-start space-x-4 mb-4">s
+            <div className="flex items-start space-x-4 mb-4">
               <div className="flex-1">
                 <div className="flex items-center gap-3 mb-2">
                   <h4 className="text-lg ">
@@ -76,7 +76,7 @@ const Products = () => {
                     <span>Delete</span>
                   </button>
                   <button
-                    className="flex items-center space-x-1 text-blue-600 hover:bg-blue-100 p-1 rounded"
+                    className="flex items-center space-x-1 text-green-600 hover:bg-blue-100 p-1 rounded"
                     onClick={() => handleEdit(blog._id)}
                   >
                     <MdEdit />
