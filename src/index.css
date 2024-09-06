@@ -1,16 +1,3 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-
-.animation{
-    animation: animate .3s ease-in  forwards;
-    margin-top: -100px;
-    opacity: 0;
-}
-
-@keyframes animate {
-    to{
-        margin-top: 0px;
-        opacity: 1;
-    }
-}
