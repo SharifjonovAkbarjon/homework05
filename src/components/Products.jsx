@@ -51,19 +51,12 @@ const Products = () => {
         {data.map((blog) => (
           <div
             key={blog.id}
-            className="w-full max-w-md bg-white shadow-md rounded-lg p-4 border border-gray-300 transition-transform transform hover:scale-105"
+            className="w-full max-w-md bg-white shadow-md rounded-lg p-4 border border-gray-300 "
           >
-            <div className="flex items-start space-x-4 mb-4">
-              <div className="flex-shrink-0">
-                <img
-                  src="https://via.placeholder.com/40"
-                  alt="User Avatar"
-                  className="w-10 h-10 rounded-full"
-                />
-              </div>
+            <div className="flex items-start space-x-4 mb-4">s
               <div className="flex-1">
                 <div className="flex items-center gap-3 mb-2">
-                  <h4 className="text-lg font-medium text-gray-900">
+                  <h4 className="text-lg ">
                     {blog.title}
                   </h4>
                   <p className="text-sm text-gray-600">{blog.userId.fname}</p>
@@ -72,13 +65,7 @@ const Products = () => {
               </div>
             </div>
             <div className="flex items-center space-x-4 text-gray-600">
-              <button
-                className="flex items-center space-x-1 hover:text-red-600"
-                onClick={() => console.log("Like button clicked")}
-              >
-                <FaHeart />
-                <span>Like</span>
-              </button>
+ 
               {profile?._id === blog.userId._id && (
                 <div className="flex items-center space-x-2">
                   <button

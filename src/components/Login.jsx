@@ -84,9 +84,7 @@ const Login = () => {
             <Input.Password size="large" placeholder="Enter your password" />
           </Form.Item>
 
-          <Form.Item name="remember" valuePropName="checked">
-            <Checkbox>Remember me</Checkbox>
-          </Form.Item>
+       
 
           <Form.Item className="text-center">
             <Button

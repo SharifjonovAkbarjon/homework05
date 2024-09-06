@@ -1,5 +1,4 @@
 import React, { memo, useEffect } from "react";
-import Header from "../components/Header";
 import Products from "../components/Products";
 import { useDispatch } from "react-redux";
 import axios from "../api";
@@ -15,7 +14,6 @@ const Home = () => {
 
   return (
     <div>
-      <Header />
       <Products />
     </div>
   );
